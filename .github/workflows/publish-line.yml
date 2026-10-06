@@ -1,10 +1,7 @@
+# LEGACY_REPO_MANUAL_ONLY: automatic LINE delivery moved to cyber-intel-daily-brief/cyber-intel-daily-brief.github.io
 name: Publish Dashboard and Send LINE
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "index.html"
   workflow_dispatch:
 
 permissions:
